@@ -1,3 +1,7 @@
+/** 
+ * Copyright (C) 2018 Tomasz Ga³aj
+ **/
+
 #pragma once
 
 #include <glad/glad.h>

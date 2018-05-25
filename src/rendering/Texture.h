@@ -1,4 +1,8 @@
-﻿#pragma once
+﻿/** 
+ * Copyright (C) 2018 Tomasz Gałaj
+ **/
+
+#pragma once
 #include <string>
 #include <glad/glad.h>
 

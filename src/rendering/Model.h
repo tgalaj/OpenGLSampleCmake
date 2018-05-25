@@ -1,4 +1,9 @@
-﻿#ifndef MODEL_H
+﻿/** 
+ * Code taken from www.learnopengl.com
+ * Slightly modified by Tomasz Gałaj 2018
+ **/
+
+#ifndef MODEL_H
 #define MODEL_H
 
 #include <glad/glad.h> 

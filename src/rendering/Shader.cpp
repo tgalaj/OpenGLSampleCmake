@@ -1,3 +1,7 @@
+/** 
+ * Copyright (C) 2018 Tomasz Ga³aj
+ **/
+
 #include "Shader.h"
 
 #include <glm\gtc\type_ptr.hpp>

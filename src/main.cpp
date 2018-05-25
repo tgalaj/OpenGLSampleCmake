@@ -1,3 +1,7 @@
+/** 
+ * Copyright (C) 2018 Tomasz Ga³aj
+ **/
+
 #include <iostream>
 #include <glad/glad.h>
 #include <GLFW/glfw3.h>

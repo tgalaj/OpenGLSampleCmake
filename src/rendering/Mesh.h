@@ -1,4 +1,9 @@
-﻿#ifndef MESH_H
+﻿/**
+* Code taken from www.learnopengl.com
+* Slightly modified by Tomasz Gałaj 2018
+**/
+
+#ifndef MESH_H
 #define MESH_H
 
 #include <glad/glad.h> // holds all OpenGL type declarations

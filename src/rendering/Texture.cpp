@@ -1,4 +1,8 @@
-﻿#include <stb_image.h>
+﻿/** 
+ * Copyright (C) 2018 Tomasz Gałaj
+ **/
+
+#include <stb_image.h>
 
 #include "Texture.h"
 #include <iostream>
