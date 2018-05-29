@@ -2,7 +2,7 @@
 
 Sample CMake for OpenGL based projects.
 
-For more information about how all of these was done please refer to this [link](http://rtrclass.type.pl).
+For more information about how all of these was done please refer to this [link](http://www.rtrclass.type.pl/2018-05-29-how-to-setup-opengl-project-with-cmake/).
 
 ## Build dependencies
  - CMake (to download click [here](https://cmake.org/download/))
