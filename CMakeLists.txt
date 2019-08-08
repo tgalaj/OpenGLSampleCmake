@@ -52,7 +52,7 @@ add_library(STB_IMAGE "thirdparty/stb_image.cpp")
 add_library(GLAD "thirdparty/glad.c")
 
 # Put all libraries into a variable
-set(LIBS glfw3 opengl32 assimp STB_IMAGE GLAD)
+set(LIBS glfw GL assimp STB_IMAGE GLAD dl)
 
 # Define the include DIRs
 include_directories(
