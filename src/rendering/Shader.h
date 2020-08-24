@@ -8,6 +8,7 @@
 #include <glm\glm.hpp>
 
 #include <map>
+#include <string>
 
 class Shader
 {
