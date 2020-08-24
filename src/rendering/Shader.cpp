@@ -1,10 +1,10 @@
 /** 
- * Copyright (C) 2018 Tomasz Ga³aj
+ * Copyright (C) 2018 Tomasz Gaï¿½aj
  **/
 
 #include "Shader.h"
 
-#include <glm\gtc\type_ptr.hpp>
+#include <glm/gtc/type_ptr.hpp>
 #include <fstream>
 #include <string>
 #include <helpers/RootDir.h>
@@ -117,7 +117,7 @@ Shader::~Shader()
 {
     if (program_id != 0)
     {
-        glDeleteProgram(program_id);
+        //glDeleteProgram(program_id);
         program_id = 0;
     }
 }
