@@ -30,9 +30,9 @@ Install the following dependencies
 
 ## Building on Ubuntu
 
-* The following recipe was successfully tested on [Ubuntu 20.04] platform.
-* So far, we haven't tested Mac OS, nor other Linux distros.
-* However, we anticipate other distros should build similarly, aside from a few package-management tweaks.
+* The following recipe was successfully tested on [Ubuntu 20.04](https://releases.ubuntu.com/20.04/) platform.
+* So far, we haven't tested [macOS](https://en.wikipedia.org/wiki/MacOS), nor any other Unix flavors.
+* However, we anticipate most Linux distros should build similarly, aside from a few package-management tweaks.
 * So... if you're developing on those platforms, please feel free to contribute :-)
 
 ### Prerequisites
