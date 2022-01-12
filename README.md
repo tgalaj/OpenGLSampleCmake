@@ -56,3 +56,6 @@ Install the following dependencies
 
 ## Additional info
  Any improvements to CMake script are greatly welcome.
+ 
+## Thanks for the contributions
+* GoannaDoIt (Andrew J Macdonald)
