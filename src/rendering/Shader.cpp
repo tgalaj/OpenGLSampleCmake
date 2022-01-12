@@ -4,7 +4,7 @@
 
 #include "Shader.h"
 
-#include <glm\gtc\type_ptr.hpp>
+#include <glm/gtc/type_ptr.hpp>
 #include <fstream>
 #include <string>
 #include <helpers/RootDir.h>

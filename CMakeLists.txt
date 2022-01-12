@@ -31,6 +31,7 @@ set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "${CMAKE_SOURCE_DIR}/cmake/")
 #######################################
 
 # OpenGL
+set(OpenGL_GL_PREFERENCE GLVND)
 find_package(OpenGL REQUIRED)
 
 # GLM
@@ -52,12 +53,14 @@ add_library(STB_IMAGE "thirdparty/stb_image.cpp")
 add_library(GLAD "thirdparty/glad.c")
 
 # Put all libraries into a variable
-set(LIBS glfw3 opengl32 assimp STB_IMAGE GLAD)
+set(LIBS ${GLFW3_LIBRARY} ${OPENGL_LIBRARY} GLAD ${CMAKE_DL_LIBS} ${ASSIMP_LIBRARY} STB_IMAGE)
 
 # Define the include DIRs
 include_directories(
 	"${CMAKE_SOURCE_DIR}/src"
 	"${CMAKE_SOURCE_DIR}/include"
+	"${CMAKE_SOURCE_DIR}/include/glad"
+	"${CMAKE_SOURCE_DIR}/include/glm"
 )
 
 # Define the link libraries
