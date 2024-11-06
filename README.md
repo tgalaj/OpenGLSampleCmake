@@ -2,7 +2,7 @@
 
 A sample CMake for OpenGL based projects.
 
-For more information about how all of these was done please refer to this [link](https://shot511.github.io/2018-05-29-how-to-setup-opengl-project-with-cmake/).
+For more information about how all of these was done please refer to this [link](https://tgalaj.github.io/2018-05-29-how-to-setup-opengl-project-with-cmake/).
 
 ## Building on Win32
 
