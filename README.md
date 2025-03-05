@@ -39,7 +39,7 @@ Install the following dependencies
 
 ```bash
   sudo apt update
-  sudo apt install -y build-essential cmake mesa-common-dev mesa-utils freeglut3-dev
+  sudo apt install -y build-essential cmake mesa-common-dev mesa-utils freeglut3-dev libassimp-dev libglfw3-dev
 ```
 
 ### Build & run
